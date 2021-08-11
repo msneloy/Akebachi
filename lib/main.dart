@@ -6,7 +6,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'I have no idea whats going on',
+      title: 'Flutter Prototype 01',
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+      ),
       home: Scaffold(
         appBar: AppBar(
           title: const Text('I have no idea where its gonna show up'),
