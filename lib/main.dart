@@ -12,10 +12,11 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('I have no idea where its gonna show up'),
+          title: const Text('Now I get it'),
         ),
-        body: const Center(
-          child: Text('Oh okay now I know'),
+        body: Center(
+          child: Image.network(
+              'https://c.tenor.com/mKTS5nbF1zcAAAAd/cute-anime-dancing.gif'),
         ),
       ),
     );
